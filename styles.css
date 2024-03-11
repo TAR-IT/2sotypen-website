@@ -1,0 +1,76 @@
+/* ------------------ FONTS & VARIABLES------------------ */
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-grey: #333333;
+  --color-turqouise: #66ffb3;
+  --color-green: #c2fc00;
+  --color-lila: #cc99ff;
+  --color-yellow: #ffff99;
+  --color-blue: #87f2f2;
+  --color-apricot: #ff7373;
+  --font-family-futura: 'Futura', Arial, sans-serif;
+  --font-family-jellyka: 'Jellyka', Arial, sans-serif;
+  --font-size-big: calc(4rem + 2vw);
+  --font-size-regular: calc(1.5rem + 2vw);
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('../font/Futura.ttf');
+  src: url('../font/Futura.ttf') format('embedded-opentype'),
+       url('../font/Futura.ttf') format('woff2'),
+       url('../font/Futura.ttf') format('woff'),
+       url('../font/Futura.ttf')  format('truetype'),
+       url('../font/Futura.ttf') format('svg');
+  
+  font-family: 'Jellyka';
+  src: url('../font/Jellyka.ttf');
+  src: url('../font/Jellyka.ttf') format('embedded-opentype'),
+      url('../font/Jellyka.ttf') format('woff2'),
+      url('../font/Jellyka.ttf') format('woff'),
+      url('../font/Jellyka.ttf')  format('truetype'),
+      url('../font/Jellyka.ttf') format('svg');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-futura);
+}
+
+/* ---------------------- GLOBAL STYLES ---------------------- */
+
+.navbar-brand {
+  font-size: var(--font-size-big);
+
+}
+
+a {
+  font-family: var(--font-family-jellyka);
+  font-size: calc(2rem + 2vw);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-jellyka);
+  font-weight: normal;
+  font-size: var(--font-size-big);
+}
+
+header {
+  background-color: var(--color-blue);
+}
+
+.contact-icon {
+width: 6vw;
+}
+
+footer {
+  background-color: var(--color-blue);
+}
+
+#copyright {
+  font-family: var(--font-family-jellyka);
+  font-size: 5vw;
+}
