@@ -18,23 +18,12 @@
 @font-face {
   font-family: 'Futura';
   src: url('../font/Futura.ttf');
-  src: url('../font/Futura.ttf') format('embedded-opentype'),
-       url('../font/Futura.ttf') format('woff2'),
-       url('../font/Futura.ttf') format('woff'),
-       url('../font/Futura.ttf')  format('truetype'),
-       url('../font/Futura.ttf') format('svg');
   
   font-family: 'Jellyka';
   src: url('../font/Jellyka.ttf');
-  src: url('../font/Jellyka.ttf') format('embedded-opentype'),
-      url('../font/Jellyka.ttf') format('woff2'),
-      url('../font/Jellyka.ttf') format('woff'),
-      url('../font/Jellyka.ttf')  format('truetype'),
-      url('../font/Jellyka.ttf') format('svg');
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: var(--font-family-futura);
@@ -42,14 +31,13 @@
 
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
-.navbar-brand {
-  font-size: calc(5rem + 5vw);
-
+#logo {
+  width: 25vw;
 }
 
 a {
   font-family: var(--font-family-jellyka);
-  font-size: calc(2rem + 2vw);
+  font-size: calc(2rem + 5vw);
 }
 
 h1, h2, h3, h4, h5, h6 {
