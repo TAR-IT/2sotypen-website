@@ -3,8 +3,12 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-grey: #333333;
-  --color-blue: #63add2;
-  --color-pink: #d1adcf;
+  --color-turqouise: #66ffb3;
+  --color-green: #c2fc00;
+  --color-lila: #cc99ff;
+  --color-yellow: #ffff99;
+  --color-blue: #87f2f2;
+  --color-apricot: #ff7373;
   --font-family-futura: 'Futura', Arial, sans-serif;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
   --font-size-big: calc(4rem + 2vw);
@@ -19,16 +23,14 @@
        url('../font/Futura.ttf') format('woff'),
        url('../font/Futura.ttf')  format('truetype'),
        url('../font/Futura.ttf') format('svg');
-}
-
-@font-face {
+  
   font-family: 'Jellyka';
   src: url('../font/Jellyka.ttf');
   src: url('../font/Jellyka.ttf') format('embedded-opentype'),
-       url('../font/Jellyka.ttf') format('woff2'),
-       url('../font/Jellyka.ttf') format('woff'),
-       url('../font/Jellyka.ttf')  format('truetype'),
-       url('../font/Jellyka.ttf') format('svg');
+      url('../font/Jellyka.ttf') format('woff2'),
+      url('../font/Jellyka.ttf') format('woff'),
+      url('../font/Jellyka.ttf')  format('truetype'),
+      url('../font/Jellyka.ttf') format('svg');
 }
 
 * {
@@ -84,7 +86,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-padding: 5px;
 }
 
 nav {
@@ -114,6 +115,32 @@ section {
 
 .container {
   padding: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%; /* Full width */
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+}
+
+.carousel-item {
+  flex: 0 0 100vw; /* Full viewport width */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
 }
 
 address {
