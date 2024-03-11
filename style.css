@@ -5,40 +5,50 @@
   --color-grey: #333333;
   --color-blue: #63add2;
   --color-pink: #d1adcf;
-  --font-family: '2sotypen', Arial, sans-serif;
-  font-size: +25px;
-  font-family: var(--font-family);
+  --font-family-futura: 'Futura', Arial, sans-serif;
+  --font-family-jellyka: 'Jellyka', Arial, sans-serif;
+  --font-size-big: calc(4rem + 2vw);
+  --font-size-regular: calc(1.5rem + 2vw);
 }
 
 @font-face {
-  font-family: '2sotypen';
-  src: url('../font/TheHandRegular.otf');
-  src: url('../font/TheHandRegular.otf') format('embedded-opentype'),
-       url('../font/TheHandRegular.otf') format('woff2'),
-       url('../font/TheHandRegular.otf') format('woff'),
-       url('../font/TheHandRegular.otf')  format('truetype'),
-       url('../font/TheHandRegular.otf') format('svg');
+  font-family: 'Futura';
+  src: url('../font/Futura.ttf');
+  src: url('../font/Futura.ttf') format('embedded-opentype'),
+       url('../font/Futura.ttf') format('woff2'),
+       url('../font/Futura.ttf') format('woff'),
+       url('../font/Futura.ttf')  format('truetype'),
+       url('../font/Futura.ttf') format('svg');
+}
+
+@font-face {
+  font-family: 'Jellyka';
+  src: url('../font/Jellyka.ttf');
+  src: url('../font/Jellyka.ttf') format('embedded-opentype'),
+       url('../font/Jellyka.ttf') format('woff2'),
+       url('../font/Jellyka.ttf') format('woff'),
+       url('../font/Jellyka.ttf')  format('truetype'),
+       url('../font/Jellyka.ttf') format('svg');
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-/* ---------------------- FONTS ---------------------- */
-
-@font-face {
-  font-family: 'SCP'; /* labels the font family */
-  src: url('/font/SourceCodePro-4alW.ttf'); /* sets the link to the Standard Font file of the websites font */
-  src: url('/font/SourceCodePro-4alW.eot') format('embedded-opentype'), /* sets the link to the Embedded OpenType Font file of the websites font */
-       url('/font/SourceCodePro-4alW.woff2') format('woff2'), /* sets the link to the WOFF2 Font file of the websites font */
-       url('/font/SourceCodePro-4alW.woff') format('woff'), /* sets the link to the WOFF Font file of the websites font */
-       url('/font/SourceCodePro-4alW.ttf')  format('truetype'), /* sets the link to the TrueType Font file of the websites font */
-       url('/font/SourceCodePro-4alW.svg') format('svg'); /* sets the link to the svg file of the websites font */
+  font-family: var(--font-family-futura);
 }
 
 /* ---------------------- GLOBAL STYLES ---------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-jellyka);
+  font-weight: normal;
+  font-size: var(--font-size-big);
+}
+
+.logo {
+  font-size: 25vw;
+}
 
 html {
   margin: 0;
@@ -60,7 +70,9 @@ display: flex;
 
 #sidebar {
 background-color: var(--color-blue);
+font-family: var(--font-family-jellyka);
 margin: 0;
+padding: 15px;
 top: 0;
 left: 0;
 height: 100vh;
@@ -81,6 +93,7 @@ nav {
 
 .navbar-items, .navbar-item, .navbar-item a {
   color: var(--color-black);
+  font-size: var();
   text-decoration: none;
   list-style-type: none;
   margin: 0;
@@ -127,7 +140,8 @@ color: var(--color-black);
 }
 
 #copyright {
-font-size: smaller;
+  font-family: var(--font-family-jellyka);
+  font-size: 5vw;
 }
 
 /* ---------------------- MOBILE VIEW STYLES ---------------------- */
