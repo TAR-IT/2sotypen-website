@@ -70,6 +70,10 @@ header {
   border: 5px var(--color-apricot) solid;
 }
 
+.navbar-toggler {
+  background-color: var(--color-blue)
+}
+
 .nav-link {
   font-family: var(--font-family-jellyka);
   font-size: calc(2rem + 5vw);

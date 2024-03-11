@@ -27,7 +27,7 @@ To be done.
 ## Installation
 1. Clone the repository.
 2. Open index.html in your web browser of choice.
-### Contributing
+## Contributing
 Contributing on this project is not intended for public.
 ## License
 No licensing is done on this project yet
