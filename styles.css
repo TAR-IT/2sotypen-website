@@ -43,7 +43,7 @@
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
 .navbar-brand {
-  font-size: var(--font-size-big);
+  font-size: calc(5rem + 5vw);
 
 }
 
