@@ -41,6 +41,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--font-size-big);
 }
 
+a {
+  color: var(--color-apricot);
+}
+
+a:hover {
+  color: var(--color-lila);
+  text-decoration: overline;
+  text-transform: lowercase;
+}
+
 header {
   background-color: var(--color-lila);
 }
