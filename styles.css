@@ -68,8 +68,12 @@ header {
   font-size: calc(2rem + 5vw);
 }
 
+address {
+  text-align: center;
+}
+
 .contact-icon {
-width: 6vw;
+width: 15vw;
 }
 
 footer {
