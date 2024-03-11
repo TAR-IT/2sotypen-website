@@ -24,15 +24,23 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   font-family: var(--font-family-futura);
 }
 
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
+html, body {
+  background-color: var(--color-);
+  margin: 0;
+  padding: 0;
+}
+
 #logo {
   width: 25vw;
+}
+
+.header-line {
+  border: 10px var(--color-blue);
 }
 
 a {
@@ -47,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  background-color: var(--color-blue);
+  background-color: var(--color-lila);
 }
 
 .contact-icon {
@@ -55,7 +63,8 @@ width: 6vw;
 }
 
 footer {
-  background-color: var(--color-blue);
+  background-color: var(--color-green);
+  margin: 0;
 }
 
 #copyright {
