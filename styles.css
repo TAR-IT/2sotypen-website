@@ -51,8 +51,10 @@ a:hover {
   text-transform: capitalize;
 }
 
-.container {
-  border: 1px var(--color-apricot dotted);
+section {
+  border: 5px var(--color-blue) dotted;
+  margin: 30px;
+  padding: 30px;
 }
 
 header {
@@ -78,7 +80,7 @@ address {
 }
 
 .contact-icon {
-width: 15vw;
+width: 10vw;
 }
 
 footer {
