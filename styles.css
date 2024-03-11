@@ -40,7 +40,7 @@ html, body {
 }
 
 .header-line {
-  border: 10px var(--color-blue);
+  border: 5px var(--color-blue) solid;
 }
 
 a {
