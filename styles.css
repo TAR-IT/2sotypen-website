@@ -35,19 +35,6 @@ html, body {
   padding: 0;
 }
 
-#logo {
-  width: 25vw;
-}
-
-.header-line {
-  border: 5px var(--color-blue) solid;
-}
-
-a {
-  font-family: var(--font-family-jellyka);
-  font-size: calc(2rem + 5vw);
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-jellyka);
   font-weight: normal;
@@ -56,6 +43,19 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: var(--color-lila);
+}
+
+#logo {
+  width: 25vw;
+}
+
+.header-line {
+  border: 5px var(--color-blue) solid;
+}
+
+.nav-link {
+  font-family: var(--font-family-jellyka);
+  font-size: calc(2rem + 5vw);
 }
 
 .contact-icon {
