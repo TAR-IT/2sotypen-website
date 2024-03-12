@@ -96,3 +96,17 @@ footer {
   font-family: var(--font-family-jellyka);
   font-size: 5vw;
 }
+
+.jump-up {
+  margin-left: 85vw;
+  padding: 0px;
+  position: sticky;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: flex;
+}
