@@ -64,11 +64,12 @@ header {
 }
 
 .navbar-nav {
+  margin-right: 5vw;
   flex-direction: row;
 }
 
 .nav-img {
-  width: calc(20px + 4vw);
+  width: 6vw;
   padding: 2px;
   margin: 0px 10px;
 }
