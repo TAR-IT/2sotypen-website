@@ -9,22 +9,14 @@
   --color-yellow: #ffff99;
   --color-blue: #87f2f2;
   --color-apricot: #ff7373;
-  --font-family-futura: 'Futura', Arial, sans-serif;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
   --font-size-big: calc(4rem + 2vw);
   --font-size-regular: calc(1.5rem + 2vw);
 }
 
-@font-face {
-  font-family: 'Futura';
-  src: url('../font/Futura.ttf');
-  
+@font-face { 
   font-family: 'Jellyka';
   src: url('../font/Jellyka.ttf');
-}
-
-* {
-  font-family: var(--font-family-futura);
 }
 
 /* ---------------------- GLOBAL STYLES ---------------------- */
@@ -42,13 +34,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: var(--color-apricot);
-  text-transform: lowercase;
 }
 
 a:hover {
   color: var(--color-lila);
   text-decoration: overline;
-  text-transform: capitalize;
 }
 
 section {
@@ -60,6 +50,9 @@ section {
 
 header {
   background-color: var(--color-white);
+  height: 15vw;
+  margin: 0;
+  padding: 0;
 }
 
 #logo {
@@ -70,14 +63,12 @@ header {
   border: 5px var(--color-apricot) solid;
 }
 
-.navbar-toggler {
-  background-color: var(--color-blue)
+.navbar-nav {
+  flex-direction: row;
 }
 
-.nav-link {
-  font-family: var(--font-family-jellyka);
-  font-size: calc(2rem + 5vw);
-  margin: 10px;
+.nav-img {
+  width: 10vw;
 }
 
 address {
