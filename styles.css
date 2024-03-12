@@ -68,7 +68,13 @@ header {
 }
 
 .nav-img {
-  width: 10vw;
+  width: calc(20px + 4vw);
+  padding: 2px;
+  margin: 0px 10px;
+}
+
+.nav-img:hover {
+  border: 5px var(--color-blue) dotted;
 }
 
 address {
