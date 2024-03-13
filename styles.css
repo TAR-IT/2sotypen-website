@@ -1,17 +1,17 @@
 /* ------------------ FONTS & VARIABLES------------------ */
 :root {
   --color-white: #FFFFFF;
+  --color-creme: #fdf4dc;
   --color-black: #000000;
   --color-grey: #333333;
   --color-turqouise: #A8D1D1;
-  --color-yellow: #fbfde4;
   --color-lila: #9EA1D4;
   --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
-  --font-size-jellyka-logo: 30vw;
-  --font-size-jellyka-big: calc(1rem + 10vw);
-  --font-size-jellyka-small: calc(.8rem + 6vw);
-  --font-size-regular: calc(.5rem + 1vw);
+  --font-size-jellyka-logo: calc(50px + 20vw);
+  --font-size-jellyka-big: calc(1rem + 6vw);
+  --font-size-jellyka-small: calc(.8rem + 4vw);
+  --font-size-regular: calc(.5rem + .4vw);
 }
 
 @font-face { 
@@ -22,7 +22,7 @@
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
 html, body {
-  background-color: var(--color-yellow);
+  background-color: var(--color-creme);
   margin: 0;
   padding: 0;
 }
@@ -81,7 +81,7 @@ header {
 }
 
 .nav-img {
-  width: 6vw;
+  width: calc(10px + 4vw);
   padding: 2px;
   margin: 0px 10px;
 }
@@ -91,21 +91,21 @@ header {
 }
 
 video {
-  width: 100%;
-  margin: 20px 0;
   border: 5px var(--color-lila) solid;
   border-radius: 5px;
+  margin: 20px 0;
+  width: 100%;
 }
 
 .carousel-inner {
-  margin: 20px 0;
-  border: 5px var(--color-yellow) solid;
+  border: 5px var(--color-lila) solid;
   border-radius: 5px;
+  margin: 20px 0;
 }
 
 address {
-  text-align: center;
   margin: 5vw;
+  text-align: center;
 }
 
 .social-img {
@@ -143,10 +143,10 @@ footer {
 }
 
 .jump-up {
-  margin-left: 85vw;
-  padding: 0px;
   position: sticky;
   bottom: 0;
+  margin-left: 85vw;
+  padding: 0px;
 }
 
 .hidden {
