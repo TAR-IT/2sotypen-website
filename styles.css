@@ -3,12 +3,10 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-grey: #333333;
-  --color-turqouise: #66ffb3;
-  --color-green: #c2fc00;
-  --color-lila: #cc99ff;
-  --color-yellow: #ffff99;
-  --color-blue: #87f2f2;
-  --color-apricot: #ff7373;
+  --color-turqouise: #A8D1D1;
+  --color-yellow: #F1F7B5;
+  --color-lila: #9EA1D4;
+  --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
   --font-size-big: calc(4rem + 2vw);
   --font-size-regular: calc(1.5rem + 2vw);
@@ -42,7 +40,7 @@ a:hover {
 }
 
 section {
-  border: 5px var(--color-blue) dotted;
+  border: 5px var(--color-turqouise) dotted;
   border-radius: 2%;
   margin: 30px;
   padding: 30px;
@@ -55,12 +53,14 @@ header {
   padding: 0;
 }
 
-#logo {
-  width: 25vw;
+.navbar-brand {
+  font-family: var(--font-family-jellyka);
+  font-size: 30vw;
+  line-height: 15vw;
 }
 
 .header-line {
-  border: 5px var(--color-apricot) solid;
+  border: .5vw var(--color-apricot) solid;
 }
 
 .navbar-nav {
@@ -75,12 +75,28 @@ header {
 }
 
 .nav-img:hover {
-  border: 5px var(--color-blue) dotted;
+  border: 5px var(--color-turqouise) dotted;
 }
 
 address {
   text-align: center;
   margin: 5vw;
+}
+
+.instagram {
+  filter: invert(72%) sepia(2%) saturate(5500%) hue-rotate(345deg) brightness(145%) contrast(94%);
+}
+
+.facebook {
+  filter: invert(98%) sepia(3%) saturate(3125%) hue-rotate(136deg) brightness(91%) contrast(78%);
+}
+
+.tiktok {
+  filter: invert(75%) sepia(61%) saturate(1305%) hue-rotate(192deg) brightness(95%) contrast(74%);
+}
+
+.youtube {
+  filter: invert(63%) sepia(26%) saturate(925%) hue-rotate(314deg) brightness(101%) contrast(107%);
 }
 
 footer {
