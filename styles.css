@@ -84,7 +84,7 @@ address {
 }
 
 .social-img {
-  width: calc(50px + 5vw);
+  width: 15vw;
 }
 
 .social-img:hover {
