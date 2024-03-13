@@ -78,6 +78,13 @@ header {
   border: 5px var(--color-turqouise) dotted;
 }
 
+video {
+  width: 100%;
+  margin: 20px 0;
+  border: 5px var(--color-lila) solid;
+  border-radius: 5px;
+}
+
 address {
   text-align: center;
   margin: 5vw;
