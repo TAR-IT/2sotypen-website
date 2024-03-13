@@ -9,8 +9,8 @@
   --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
   --font-size-jellyka-logo: 30vw;
-  --font-size-jellyka-big: calc(2rem + 6vw);
-  --font-size-jellyka-small: calc(1.5rem + 6vw);
+  --font-size-jellyka-big: calc(1rem + 10vw);
+  --font-size-jellyka-small: calc(.8rem + 6vw);
   --font-size-regular: calc(.5rem + 1vw);
 }
 
