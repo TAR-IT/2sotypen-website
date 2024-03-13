@@ -4,7 +4,7 @@
   --color-black: #000000;
   --color-grey: #333333;
   --color-turqouise: #A8D1D1;
-  --color-yellow: #F1F7B5;
+  --color-yellow: #fbfde4;
   --color-lila: #9EA1D4;
   --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
@@ -22,6 +22,7 @@
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
 html, body {
+  background-color: var(--color-yellow);
   margin: 0;
   padding: 0;
 }
@@ -64,7 +65,7 @@ section {
 }
 
 header {
-  background-color: var(--color-white);
+  background-color: var(--color-yellow);
   height: 15vw;
   margin: 0;
   padding: 0;
@@ -116,7 +117,7 @@ address {
 }
 
 .instagram {
-  filter: invert(72%) sepia(2%) saturate(5500%) hue-rotate(345deg) brightness(145%) contrast(94%);
+  filter: invert(72%) sepia(100%) saturate(5500%) hue-rotate(345deg) brightness(222%) contrast(94%);
 }
 
 .facebook {
