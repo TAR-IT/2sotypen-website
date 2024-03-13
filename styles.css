@@ -8,7 +8,9 @@
   --color-lila: #9EA1D4;
   --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
-  --font-size-big: calc(4rem + 2vw);
+  --font-size-jellyka-logo: 30vw;
+  --font-size-jellyka-big: calc(2rem + 6vw);
+  --font-size-jellyka-small: calc(1.5rem + 6vw);
   --font-size-regular: calc(.5rem + 1vw);
 }
 
@@ -24,10 +26,20 @@ html, body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, .navbar-brand {
   font-family: var(--font-family-jellyka);
-  font-weight: normal;
-  font-size: var(--font-size-big);
+  font-size: var(--font-size-jellyka-logo);
+  line-height: 15vw;
+}
+
+h2 {
+  font-family: var(--font-family-jellyka);
+  font-size: var(--font-size-jellyka-big);
+}
+
+h3, h4, h5, h6 {
+  font-family: var(--font-family-jellyka);
+  font-size: var(--font-size-jellyka-small);
 }
 
 a {
@@ -41,6 +53,7 @@ a:hover {
 
 p, li {
   font-size: var(--font-size-regular);
+  padding-left: 0;
 }
 
 section {
@@ -55,12 +68,6 @@ header {
   height: 15vw;
   margin: 0;
   padding: 0;
-}
-
-.navbar-brand {
-  font-family: var(--font-family-jellyka);
-  font-size: 30vw;
-  line-height: 15vw;
 }
 
 .header-line {
