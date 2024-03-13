@@ -3,7 +3,8 @@ This is the repository for the portfolio website of the german band "2sotypen". 
 ## UX
 No user experience requirements have been set yet.
 ### User Stories
-No user stories have been created.
+- I should be able to contact 2sotypen either via email or social media. This information should be present on the website.
+- As a user, it would be cool to have a map that pins every location where 2sotypen have played before.
 ### Design
 No design requirements have been set.
 ## Features
