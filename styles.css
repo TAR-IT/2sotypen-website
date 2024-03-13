@@ -83,6 +83,14 @@ address {
   margin: 5vw;
 }
 
+.social-img {
+  width: calc(50px + 5vw);
+}
+
+.social-img:hover {
+  padding: 15px;
+}
+
 .instagram {
   filter: invert(72%) sepia(2%) saturate(5500%) hue-rotate(345deg) brightness(145%) contrast(94%);
 }
