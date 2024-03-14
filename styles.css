@@ -68,7 +68,7 @@ a:hover {
 }
 
 section {
-  border: 3px var(--color-lila) dotted;
+  border: 3px var(--color-apricot) dotted;
   border-radius: .5%;
   margin: 30px;
   padding: 30px;
@@ -96,18 +96,18 @@ header {
 }
 
 .nav-img:hover {
-  border: 5px var(--color-turqouise) dotted;
+  border: 3px var(--color-lila) dotted;
 }
 
 video {
-  border: 5px var(--color-turqouise) solid;
+  border: 5px var(--color-lila) solid;
   border-radius: 5px;
   margin: 20px 0;
   width: 100%;
 }
 
 .carousel-inner {
-  border: 5px var(--color-turqouise) solid;
+  border: 5px var(--color-lila) solid;
   border-radius: 5px;
   margin: 20px 0;
 }
