@@ -68,8 +68,8 @@ a:hover {
 }
 
 section {
-  border: 5px var(--color-lila) dotted;
-  border-radius: 2%;
+  border: 3px var(--color-lila) dotted;
+  border-radius: .5%;
   margin: 30px;
   padding: 30px;
 }
