@@ -9,7 +9,6 @@
   --color-apricot: #FD8A8A;
   --font-family-jellyka: 'Jellyka', Arial, sans-serif;
   --font-family-futura: 'Futura', Arial, sans-serif;
-  --font-size-jellyka-logo: calc(50px + 20vw);
   --font-size-jellyka-big: calc(1rem + 6vw);
   --font-size-jellyka-small: calc(.8rem + 4vw);
   --font-size-regular: calc(.6rem + .8vw);
@@ -32,6 +31,7 @@
        url('/font/Futura.woff') format('woff'), /* sets the link to the WOFF Font file of the websites font */
        url('/font/Futura.ttf')  format('truetype'), /* sets the link to the TrueType Font file of the websites font */
 }
+
 /* ---------------------- GLOBAL STYLES ---------------------- */
 
 html, body {
@@ -40,12 +40,6 @@ html, body {
   font-size: var(--font-size-regular);
   margin: 0;
   padding: 0;
-}
-
-h1, .navbar-brand {
-  font-family: var(--font-family-jellyka);
-  font-size: var(--font-size-jellyka-logo);
-  line-height: 15vw; /* Get rid of font-specific line height in the logo */
 }
 
 h2 {
@@ -97,6 +91,10 @@ header {
 
 .nav-img:hover {
   border: 3px var(--color-lila) dotted;
+}
+
+#logo {
+  width: 30vw;
 }
 
 video {
