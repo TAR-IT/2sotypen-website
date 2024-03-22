@@ -31,11 +31,11 @@ html, body {
 }
 
 h2 img {
-  height: 8vw;
+  height: calc(20px + 5vw);
 }
 
 h3 img {
-  height: 5vw;
+  height: calc(20px + 5vw);
 }
 
 a {
@@ -55,24 +55,39 @@ section {
 }
 
 header {
-  height: 15vw;
+  height: 16vw;
   margin: 0;
-  padding: 0;
+  padding: 2vw;
 }
 
 .header-line {
   border: .5vw var(--color-apricot) solid;
 }
 
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-nav {
+  margin-top: -10px;
   margin-right: 5vw;
   flex-direction: row;
 }
 
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
 .nav-img {
   width: calc(10px + 4vw);
+  margin: 0px;
   padding: 2px;
-  margin: 0px 10px;
+
 }
 
 .nav-img:hover {
@@ -133,3 +148,30 @@ footer {
 #copyright img {
   width: 10vw;
 }
+
+/* ---------------------- MAINTENANCE STYLES ---------------------- */
+
+/* ------------------ FONTS & VARIABLES------------------ */
+
+/* html {background-color: black;}
+body {background-color: white;}
+h2 img {background-color: gold;}
+h3 img {background-color: cadetblue}
+a {background-color: aqua}
+a:hover {background-color: hotpink;}
+section {background-color: tan}
+header {background-color: firebrick}
+.header-line {background-color: chocolate}
+.navbar {background-color: cornflowerblue;}
+.navbar-nav {background-color: violet}
+.nav-item {background-color: ghostwhite;}
+.nav-img {background-color: teal}
+.nav-img:hover {background-color: darkblue}
+#logo {background-color: chartreuse}
+video {background-color: royalblue}
+.carousel-inner {background-color: tomato}
+address {background-color: khaki}
+.social-img {background-color: lawngreen}
+.social-img:hover {background-color: yellow}
+footer {background-color: rebeccapurple}
+#copyright img {background-color: brown} */
